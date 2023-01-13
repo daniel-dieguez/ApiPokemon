@@ -1,0 +1,117 @@
+
+ body{
+  background: linear-gradient(123deg, #FFFCAC 0%, #FFFFFF 67%), linear-gradient(180deg, #D8D8D8 0%, #6B0000 100%), linear-gradient(142deg, #F9F5F0 0%, #F9F5F0 33%, #F2EAD3 calc(33% + 1px), #F2EAD3 56%, #F4991A calc(56% + 1px), #F4991A 62%, #321313 calc(62% + 1px), #321313 100%);
+  background-blend-mode: multiply, overlay, normal;background-repeat: no-repeat;
+background-size: cover;
+min-height: 100vh;
+}
+
+#container{
+  text-align: left;
+  padding: 1px;
+  margin: 5px;
+}
+#container h1{
+  font-size: 50px;
+  font-family:fantasy;
+}
+#container p{
+  font-size: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+#form{
+  width: 225px;
+  height: 270px;
+  margin: 2vh ;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 4px;
+  font-size: 20px;
+}
+
+
+#form h2{
+  text-align: center;   
+}
+
+
+.input-control{
+  display: flex;
+  flex-direction: column;
+}
+.input-control label{
+  font-size: 20px;
+}
+.input-control input{
+  border: 2px solid #be412b;
+  border-radius: 4px;
+  display: block;
+  font-size: 16px;
+  padding: 10px;
+  width: 90%;
+  margin: 5px;
+}
+
+.input-control input:focus{
+  outline: 0;
+}
+
+#btnEnviar{
+  width: 100%;
+  height: 50px;
+  border: 1px solid;
+  background-color:rgb(0, 0, 0);
+  color: #FFFFFF;
+}
+#btnEnviar:hover{
+  background-color: #1DCD9F;
+}
+
+#contenedor{
+  display: flex;
+}   /*Poner contenedores de div de lado a lado*/
+
+#clone{
+   display: flex;
+}
+
+#clone p{
+  background-color: #FFFFFF;
+  border-radius: 1px;
+  margin: -15px;
+  padding: 10%;
+  width: 250px;
+  height: 30px;
+  font-size: 20px;
+  text-align: center;
+
+
+}
+
+#clone li  {
+  display: flex;
+  height: 110px;
+  float: left;
+  align-items: center;
+  padding: 5px;
+  
+  
+}
+
+#clone button{
+  float: right;
+  background-color: #ac870e;
+  border-radius: 5px;
+  color: white;
+  float: left;
+  height:84px;
+  border-style: none;
+
+}
+
+#clone button:hover{
+  color: #f8eeee;
+  background-color: #e21414;
+}
