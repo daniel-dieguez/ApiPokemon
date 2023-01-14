@@ -75,6 +75,10 @@ min-height: 100vh;
 
 #clone{
    display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 50px;
+   
 }
 
 #clone p{
@@ -98,6 +102,12 @@ min-height: 100vh;
   padding: 5px;
   
   
+}
+
+#clone img{
+  height: 100px;
+  width: 100px;
+  position: center;
 }
 
 #clone button{
